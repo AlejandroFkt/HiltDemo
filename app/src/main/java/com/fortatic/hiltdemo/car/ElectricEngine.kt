@@ -1,8 +1,9 @@
 package com.fortatic.hiltdemo.car
 
 import timber.log.Timber
+import javax.inject.Inject
 
-class ElectricEngine: Engine {
+class ElectricEngine @Inject constructor() : Engine {
 
     init {
         start()

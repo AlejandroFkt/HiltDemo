@@ -1,3 +1,5 @@
 package com.fortatic.hiltdemo.car
 
-class Tires
+import javax.inject.Inject
+
+class Tires @Inject constructor()
